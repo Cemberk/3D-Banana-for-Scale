@@ -41,7 +41,7 @@ renderer.shadowMap.enabled = true;
 
 
 const loader = new STLLoader();
-loader.load('Banana_Scan_2.stl', function (geometry) {
+loader.load('RASPBERRY_PI_5.STL', function (geometry) {
     geometry.rotateX(-Math.PI / 2);
     const material = new THREE.MeshStandardMaterial({ color: 0xfffdaf });
     material.receiveShadow = true;
