@@ -41,7 +41,7 @@ renderer.shadowMap.enabled = true;
 
 
 const loader = new STLLoader();
-loader.load('RASPBERRY_PI_5.STL', function (geometry) {
+loader.load('ImageToStl.com_camera_module_3_std_model_simple.stl', function (geometry) {
     geometry.rotateX(-Math.PI / 2);
     const material = new THREE.MeshStandardMaterial({ color: 0xfffdaf });
     material.receiveShadow = true;
